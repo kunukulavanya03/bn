@@ -1,0 +1,17 @@
+{
+  "development": {
+    "api_base_url": "http://localhost:8000",
+    "app_base_url": "http://localhost:3000",
+    "cdn_url": "/assets"
+  },
+  "production": {
+    "api_base_url": "https://api.yourdomain.com",
+    "app_base_url": "https://yourdomain.com",
+    "cdn_url": "https://cdn.yourdomain.com"
+  },
+  "staging": {
+    "api_base_url": "https://staging-api.yourdomain.com",
+    "app_base_url": "https://staging.yourdomain.com",
+    "cdn_url": "https://staging-cdn.yourdomain.com"
+  }
+}
